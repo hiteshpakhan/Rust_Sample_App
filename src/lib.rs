@@ -4,6 +4,9 @@ use base64::{ encode, decode };
 use image::load_from_memory;
 use image::ImageOutputFormat::Png;
 
+// this is just commint
+
+
 #[wasm_bindgen]
 pub fn grayscale(encoded_file: &str) -> String {
   log(&"Grayscale called".into());
